@@ -1,1 +1,1 @@
-# REed Hat RHCE Labs
+# Red Hat RHCE Labs
