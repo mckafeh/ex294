@@ -1,0 +1,8 @@
+subscription-manager repos --list
+subscription-manager repos --enable=ansible-2-for-rhel-8-x86_64-rpms
+
+
+/etc/sudoers
+/etc/sudoers.d/ansible
+
+echo "ansible ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/ansible
